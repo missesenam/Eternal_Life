@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary10: "#33569d",
+              primary20: "#072152",
+              blk: "#000000",
+              wht: "#ffffff",
+              darkpurple: "#5c5caa",
+              pink: "#d887cb",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <!-- main -->
+    <main class="pt-9">
+      <!-- first section -->
+      <section class="lg:w-[60%] mx-auto">
+        <h1 class="uppercase text-3xl text-center">
+          Eternal Life Leadership Training Institute
+        </h1>
+        <div class="flex flex-col gap-5 items-center lg:flex-row mt-5">
+          <div class="px-6 lg:px-0 lg:w-[50%]">
+            <h1 class="text-[50px] uppercase">ellti</h1>
+            <p>
+              Eternal Life Leadership Training Institute (ELLTI) is an
+              Independent, not-for-profit Christian Leadership Training
+              Institute founded by Apostle Thomas Appiah-Kusi in 2021. The
+              Institute is located at Agbogba in the Greater Accra Region of
+              Ghana.
+            </p>
+          </div>
+          <div class="lg:w-[50%]">
+            <img
+              src="./img/eternalLife.jpg"
+              alt="eternalLife picture"
+              class="ml-auto"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- second section -->
+      <section class="lg:w-[50%] flex flex-col gap-5 mx-auto mt-10">
+        <div class="">
+          <h1
+            class="text-3xl font-extrabold text-primary20 mb-3 uppercase tracking-wide"
+          >
+            Vision Statement
+          </h1>
+          <p class="bg-primary20 text-wht p-2 rounded-lg">
+            Our vision is “To be recognized as a global leader in cultivating
+            exceptional leadership talent and fostering positive societal change
+            through transformative training and development programs."
+          </p>
+        </div>
+
+        <div class="flex items-center my-4">
+          <div class="flex-grow border-t border-gray-300"></div>
+          <span class="px-4 uppercase bg-darkpurple rounded-xl text-wht">
+            and</span
+          >
+          <div class="flex-grow border-t border-gray-300"></div>
+        </div>
+
+        <div>
+          <h1
+            class="text-right text-3xl font-extrabold text-primary20 mb-3 uppercase tracking-wide"
+          >
+            Mission Statement
+          </h1>
+          <p class="p-2 bg-primary20 rounded-lg text-right text-wht">
+            Our mission is to empower individuals with the knowledge, skills,
+            and mindset necessary to become visionary leaders who drive
+            innovation, inspire others, and create lasting positive impact in
+            their organizations and communities."
+          </p>
+        </div>
+      </section>
+      <!-- our values and objective section -->
+
+      <section class="my-10">
+        <!-- values -->
+        <div>
+          <h1
+            class="text-2xl font-extrabold text-primary50 mb-3 uppercase tracking-wide text-center"
+          >
+            our core values
+          </h1>
+          <div class="flex items-center my-5 w-[8%] mx-auto">
+            <span class="flex-grow border-t-2 border-gray-300"></span>
+          </div>
+
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:w-[80%] mx-auto lg:grid-cols-3 gap-8 mt-10"
+            id="values"
+          ></div>
+        </div>
+
+        <!-- objective section -->
+        <div class="mt-10 lg:w-[80%] mx-auto">
+          <!-- dividers -->
+          <div class="flex items-center my-10">
+            <div class="flex-grow border-t border-gray-300"></div>
+            <span
+              class="px-4 uppercase bg-darkpurple rounded-xl text-wht text-2xl font-extrabold"
+            >
+              our objectives</span
+            >
+            <div class="flex-grow border-t border-gray-300"></div>
+          </div>
+          <!-- objectives -->
+          <div class="grid lg:grid-cols-8 gap-10">
+            <div class="lg:col-span-3">
+              <img
+                src="./img/achievement.webp"
+                alt="achievement"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div class="grid gap-5 lg:col-span-5" id="goals-container"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="values.js"></script>
+    <script src="main.js"></script>
+    <script src="objectives.js"></script>
+    <!-- footer -->
+    <footer class="footer footer-center text-wht bg-primary20 p-4">
+      <aside>
+        <p id="copyright">
+          Copyright © <span id="year"></span> - All rights reserved | Eternal
+          Life Leadership Training Institute
+        </p>
+      </aside>
+    </footer>
+  </body>
+</html>

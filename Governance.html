@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Governance</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary10: "#33569d",
+              primary20: "#072152",
+              blk: "#000000",
+              wht: "#ffffff",
+              darkpurple: "#5c5caa",
+              pink: "#d887cb",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <!-- main -->
+    <main class="pt-[100px]">
+      <!-- section 1: organogram of ELLTI -->
+      <section>
+        <h1
+          class="text-4xl font-bold text-primary20 text-center mb-8 capitalize"
+        >
+          organogram of ELLTI
+        </h1>
+        <!-- diagram -->
+        <div class="flex flex-col items-center space-y-6">
+          <!-- Top Level -->
+          <div class="bg-primary10 text-white px-4 py-2 rounded shadow-md">
+            Board of Governors
+          </div>
+
+          <!-- Second Level -->
+          <div class="flex space-x-10">
+            <div class="bg-primary10 text-white px-4 py-2 rounded shadow-md">
+              Founder & President
+            </div>
+            <div class="bg-primary10 text-white px-4 py-2 rounded shadow-md">
+              Presidential Secretariat
+            </div>
+          </div>
+
+          <!-- Connecting Line -->
+          <div class="w-0 h-10 border-l-4 border-primary10"></div>
+
+          <!-- Third Level -->
+          <div class="flex space-x-10">
+            <div class="bg-primary10 text-white px-4 py-2 rounded shadow-md">
+              Media & Communications
+            </div>
+            <div class="bg-primary10 text-white px-4 py-2 rounded shadow-md">
+              Finance & Admin
+            </div>
+            <div class="bg-primary10 text-white px-4 py-2 rounded shadow-md">
+              Research and Training
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section 2: Board of Governors -->
+      <section class="bg-gray-50 mt-10">
+        <div class="rounded-lg lg:w-[50%] lg:mx-auto">
+          <h2 class="text-3xl font-bold text-primary20 mb-4">
+            Board of Governors
+          </h2>
+          <p class="text-gray-700 text-lg mb-4">
+            The Board of Governors play a critical role in the governance and
+            strategic oversight of an organization. Their primary
+            responsibilities include setting the organization's direction,
+            ensuring legal and ethical compliance, and safeguarding the
+            interests of stakeholders. The roles and responsibilities of the
+            Board of Governors will include:
+          </p>
+          <div class="flex flex-col gap-4" id="boardofgov"></div>
+        </div>
+      </section>
+      <!-- section 3: founder and president -->
+      <section>
+        <div
+          class="flex items-center justify-between w-full p-6 rounded-lg mt-10"
+        >
+          <!-- Founder Section -->
+          <div class="text-center w-1/2">
+            <h2 class="text-xl font-semibold text-primary10">Founder</h2>
+          </div>
+
+          <!-- Separator -->
+          <div class="relative">
+            <div
+              class="w-px h-16 bg-gray-400 before:content-[''] before:absolute before:w-8 before:h-px before:bg-pink before:top-1/2 before:left-[-3rem] after:content-[''] after:absolute after:w-8 after:h-px after:bg-pink after:top-1/2 after:right-[-3rem]"
+            ></div>
+          </div>
+
+          <!-- President Section -->
+          <div class="text-center w-1/2">
+            <h2 class="text-xl font-semibold text-primary10">President</h2>
+          </div>
+        </div>
+        <!-- founder -->
+        <div
+          class="bg-gray-50 p-6 rounded-lg shadow-lg space-y-6 max-w-4xl mx-auto"
+        >
+          <!-- Title Section -->
+          <div class="text-center">
+            <h2 class="text-2xl font-bold text-primary20">Founder</h2>
+            <p class="mt-2 text-gray-700 text-sm">
+              The Founder is the individual who establishes and conceptualizes
+              the organization, driven by a vision or specific purpose.
+            </p>
+          </div>
+
+          <!-- Responsibilities Section -->
+          <div class="space-y-4">
+            <h3 class="text-xl font-semibold text-primary10">
+              Key Responsibilities
+            </h3>
+            <ul class="list-disc list-inside text-gray-700 space-y-2">
+              <li>
+                <strong>Vision and Strategy:</strong> Sets the organization's
+                vision, long-term goals, and strategic direction. Defines
+                purpose and values to guide activities and decisions.
+              </li>
+              <li>
+                <strong>Leadership and Decision-Making:</strong> Provides
+                leadership and direction, making critical decisions related to
+                structure, culture, and major initiatives.
+              </li>
+              <li>
+                <strong>Fundraising and Resource Acquisition:</strong> Secures
+                funding, grants, or investments to support operations and
+                growth. Engages with donors, partners, and stakeholders for
+                financial support.
+              </li>
+              <li>
+                <strong>Team Building and Recruitment:</strong> Assembles a core
+                team, recruits key personnel, and establishes a strong
+                organizational culture.
+              </li>
+              <li>
+                <strong>External Relations and Networking:</strong> Builds
+                relationships with stakeholders, partners, and the community.
+                Represents the organization in conferences, events, and public
+                engagements.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- presition -->
+        <div
+          class="bg-gray-50 p-6 rounded-lg shadow-lg space-y-6 max-w-4xl mx-auto mt-10"
+        >
+          <!-- Title Section -->
+          <div class="text-center">
+            <h2 class="text-2xl font-bold text-primary20">President</h2>
+            <p class="mt-2 text-gray-700 text-sm">
+              The President is typically the top executive or leader of an
+              organization, responsible for overall management and
+              administration.
+            </p>
+          </div>
+
+          <!-- Responsibilities Section -->
+          <div class="space-y-4">
+            <h3 class="text-xl font-semibold text-primary10">
+              Key Responsibilities
+            </h3>
+            <ul class="list-disc list-inside text-gray-700 space-y-2">
+              <li>
+                <strong>Strategic Planning and Execution:</strong> Works closely
+                with the Board of Directors and senior management to develop and
+                execute strategic plans, ensuring alignment with organizational
+                goals.
+              </li>
+              <li>
+                <strong>Financial Management:</strong> Oversees financial
+                performance, including budgeting, reporting, and securing
+                funding. Ensures efficient management of resources.
+              </li>
+              <li>
+                <strong>Organizational Leadership:</strong> Provides executive
+                leadership, motivates staff, promotes teamwork, and ensures
+                effective communication across the organization.
+              </li>
+              <li>
+                <strong>External Relations and Advocacy:</strong> Represents the
+                organization to stakeholders, government officials, donors, and
+                the media. Engages in advocacy and builds strategic alliances.
+              </li>
+              <li>
+                <strong>Board of Directors Engagement:</strong> Works closely
+                with the Board, providing updates, collaborating on decisions,
+                and ensuring transparency and accountability.
+              </li>
+              <li>
+                <strong>Risk Management:</strong> Assesses and mitigates risks,
+                ensuring compliance with regulations and ethical standards.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- section 4: the big three -->
+      <section class="mt-10">
+        <!-- research and training -->
+        <div>
+          <div
+            class="bg-gradient-to-r from-pink to-darkpurple p-8 rounded-lg shadow-lg mx-auto"
+          >
+            <!-- Title Section -->
+            <div class="text-center border-b-2 border-blue-300 pb-4 mb-6">
+              <h2 class="text-2xl font-bold text-wht">
+                Research and Training Manager (RTM)
+              </h2>
+              <p class="mt-2 text-gray-50 text-sm">
+                The RTM ensures the institute's research and training programs
+                are evidence-based and aligned with organizational objectives.
+                They enhance professional development through impactful insights
+                and training experiences.
+              </p>
+            </div>
+
+            <!-- Roles and Responsibilities Section -->
+            <div class="space-y-6">
+              <h3 class="text-lg font-semibold text-wht">
+                Roles and Responsibilities
+              </h3>
+              <div
+                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-7 gap-4"
+                id="rtm"
+              ></div>
+            </div>
+
+            <!-- media -->
+            <div class="text-center border-b-2 border-blue-300 pb-4 my-10">
+              <h2 class="text-2xl font-bold text-wht">
+                Media & Communications Manager (MCM)
+              </h2>
+              <p class="mt-2 text-gray-50 text-sm">
+                The role of a Media & Communications Manager is crucial in
+                effectively managing and enhancing an organization's public
+                image, reputation, and communication strategies. Key
+                responsibilities and functions of the MCM includes:
+              </p>
+            </div>
+
+            <div
+              class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-7 gap-4"
+              id="mcm"
+            ></div>
+          </div>
+        </div>
+      </section>
+      <!-- fam -->
+      <section class="mt-10">
+        <div class="p-5">
+          <h1 class="text-lg font-bold text-gray-800">
+            Finance and Administration Manager (FAM)
+          </h1>
+          <p class="mt-2 text-gray-600">
+            The FAM roles and responsibilities include:
+          </p>
+        </div>
+        <!-- finance and administration -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 p-6">
+          <!-- Finance Section -->
+          <div class="p-5 bg-white shadow-lg rounded-lg">
+            <h2 class="text-xl font-bold text-primary30 mb-4">Finance</h2>
+            <ul class="list-disc pl-5 space-y-2 text-gray-700">
+              <li>
+                <strong>Budgeting and Financial Planning:</strong> Developing
+                and managing budgets, preparing forecasts, and allocating funds.
+              </li>
+              <li>
+                <strong>Financial Reporting and Analysis:</strong> Preparing
+                financial reports and ensuring compliance with standards.
+              </li>
+              <li>
+                <strong>Cash Flow Management:</strong> Tracking cash
+                inflows/outflows and managing banking relationships.
+              </li>
+              <li>
+                <strong>Financial Controls and Compliance:</strong> Conducting
+                audits and overseeing procurement.
+              </li>
+              <li>
+                <strong>Grant Management:</strong> Managing funds, preparing
+                reports for funders, and ensuring compliance with terms.
+              </li>
+              <li>
+                <strong>Financial Planning and Analysis:</strong> Evaluating
+                program feasibility and providing financial recommendations.
+              </li>
+            </ul>
+          </div>
+
+          <!-- Administration Section -->
+          <div class="p-5 bg-white shadow-lg rounded-lg">
+            <h2 class="text-xl font-bold text-primary30 mb-4">
+              Administration
+            </h2>
+            <ul class="list-disc pl-5 space-y-2 text-gray-700">
+              <li>
+                <strong>Human Resources Management:</strong> Recruitment,
+                onboarding, and employee relations management.
+              </li>
+              <li>
+                <strong>Facilities and Office Management:</strong> Overseeing
+                office space, maintenance, and vendor contracts.
+              </li>
+              <li>
+                <strong>Legal and Compliance:</strong> Handling legal matters
+                and ensuring regulatory compliance.
+              </li>
+              <li>
+                <strong>Procurement and Supply Chain Management:</strong>
+                Managing procurement processes and supplier contracts.
+              </li>
+              <li>
+                <strong>Administrative Support:</strong> Organizing meetings,
+                managing records, and handling logistics.
+              </li>
+              <li>
+                <strong>Information Technology:</strong> Managing IT systems,
+                data security, and technical support.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- membership -->
+      <section class="mt-10 mx-auto">
+        <h2 class="text-4xl font-semibold text-primary20 text-center">
+          Membership Status
+        </h2>
+        <div
+          class="pt-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-5"
+          id="roles"
+        ></div>
+      </section>
+
+      <!-- s -->
+
+      <!-- 
+        <div>
+          <div>
+            <button
+              data-collapse-target="collapse"
+              class="rounded-md bg-slate-800 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+              type="button"
+            >
+              finance
+            </button>
+            <div
+              data-collapse="collapse"
+              class="block h-0 w-full basis-full overflow-hidden transition-all duration-300 ease-in-out"
+            >
+              <div
+                class="relative mx-auto flex w-8/12 flex-col rounded-lg bg-white border border-slate-200 shadow-sm mt-4"
+              >
+                <div class="p-4">
+                  <p class="text-slate-600 font-light">
+                    Use our Tailwind CSS collapse for your website. You can use
+                    if for accordion, collapsible items and much more.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+    </main>
+
+    <!-- footer -->
+    <footer class="footer footer-center text-wht bg-primary20 p-4">
+      <aside>
+        <p id="copyright">
+          Copyright © <span id="year"></span> - All rights reserved | Eternal
+          Life Leadership Training Institute
+        </p>
+      </aside>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/@material-tailwind/html@latest/scripts/collapse.js"></script>
+    <script src="BoardofGovernors.js"></script>
+    <script src="rtm.js"></script>
+    <script src="media.js"></script>
+    <script src="roles.js"></script>
+  </body>
+</html>

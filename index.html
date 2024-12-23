@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary10: "#33569d",
+              primary20: "#072152",
+              blk: "#000000",
+              wht: "#ffffff",
+              darkpurple: "#5c5caa",
+              pink: "#d887cb",
+            },
+          },
+        },
+      };
+    </script>
+    <!-- animation -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+    />
+  </head>
+  <body>
+    <div class="w-[80%] mx-auto" id="navbar"></div>
+    <!-- hero section -->
+    <div class="bg-[#cddcf7] h-screen">
+      <div
+        class="ani-boxes flex flex-col h-full justify-center items-center gap-5"
+      >
+        <div data-ani="fadeInLeft" class="text-8xl text-primary20">
+          "Empower, Inspire, Innovate"
+        </div>
+        <div
+          data-ani="fadeInRight"
+          class="text-pink text-3xl lg:w-[40%] text-center"
+        >
+          World-class authority in nurturing outstanding leadership
+          capabilities.
+        </div>
+      </div>
+    </div>
+
+    <!-- main -->
+    <main class="my-7">
+      <div class="flex flex-col items-center">
+        <img src="./img/eternalLife.jpg" alt="" />
+        <h1
+          class="text-3xl lg:text-4xl font-bold text-primary10 text-center my-8"
+        >
+          Eternal Life Leadership Training Institute
+        </h1>
+      </div>
+    </main>
+    <!-- footer -->
+    <!-- footer -->
+    <footer class="footer footer-center text-wht bg-primary20 p-4">
+      <aside>
+        <p id="copyright">
+          Copyright © <span id="year"></span> - All rights reserved | Eternal
+          Life Leadership Training Institute
+        </p>
+      </aside>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
