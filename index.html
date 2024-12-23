@@ -42,13 +42,13 @@
     />
   </head>
   <body>
-    <div class="w-[80%] mx-auto" id="navbar"></div>
+    <div class="z-[1000] fixed w-screen bg-white" id="navbar"></div>
     <!-- hero section -->
     <div class="bg-[#cddcf7] h-screen">
       <div
         class="ani-boxes flex flex-col h-full justify-center items-center gap-5"
       >
-        <div data-ani="fadeInLeft" class="text-8xl text-primary20">
+        <div data-ani="fadeInLeft" class="text-6xl lg:text-8xl text-primary20">
           "Empower, Inspire, Innovate"
         </div>
         <div
@@ -63,14 +63,156 @@
 
     <!-- main -->
     <main class="my-7">
-      <div class="flex flex-col items-center">
-        <img src="./img/eternalLife.jpg" alt="" />
-        <h1
-          class="text-3xl lg:text-4xl font-bold text-primary10 text-center my-8"
-        >
-          Eternal Life Leadership Training Institute
-        </h1>
-      </div>
+      <section>
+        <div class="flex flex-col items-center">
+          <img src="./img/eternalLife.jpg" alt="" />
+          <h1
+            class="text-3xl lg:text-4xl font-bold text-primary10 text-center my-8"
+          >
+            Eternal Life Leadership Training Institute
+          </h1>
+        </div>
+      </section>
+      <section class="lg:grid grid-cols-5 gap-5 p-6">
+        <div class="lg:col-span-2">
+          <h2 class="text-4xl font-bold text-gray-800 mb-4">
+            Executive Leadership Team
+          </h2>
+          <p class="text-gray-600 leading-relaxed">
+            The Executive Leadership Team provides essential strategic guidance
+            and operational oversight for the organization. Their core
+            responsibilities include shaping long-term goals, ensuring alignment
+            with organizational values, and fostering sustainable growth while
+            addressing stakeholder priorities.
+          </p>
+        </div>
+        <div class="lg:col-span-3 grid lg:grid-cols-3 gap-4">
+          <div
+            class="bg-white rounded-lg shadow-lg border-2 border-pink p-6 relative"
+          >
+            <!-- Icon -->
+            <div class="flex justify-center mb-4 text-blue-500">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-10 w-10 stroke-pink"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 2a10 10 0 100 20 10 10 0 000-20zm0 2a8 8 0 110 16 8 8 0 010-16zM10 12h4m-2-2v4"
+                />
+              </svg>
+            </div>
+            <!-- Title -->
+            <h3 class="text-xl font-semibold text-gray-800 text-center mb-2">
+              Governance and Strategic Planning
+            </h3>
+            <!-- Text -->
+            <p class="text-gray-600 text-center mb-6">
+              Focuses on guiding an organization’s direction through sound
+              decision-making and long-term planning to achieve its goals.
+            </p>
+            <!-- Button -->
+            <div
+              class="text-center absolute -bottom-5 left-1/2 transform -translate-x-1/2"
+            >
+              <a
+                href="/Governance.html"
+                class="inline-block px-3 py-2 text-white bg-primary10 rounded-md hover:bg-pink"
+              >
+                Learn More
+              </a>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div
+            class="bg-white rounded-lg shadow-lg border-2 border-darkpurple p-6 relative"
+          >
+            <!-- Icon -->
+            <div class="flex justify-center mb-4 text-blue-500">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-10 w-10 stroke-darkpurple"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke=""
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M8 14h8M12 6v12m-6 0l3-3m6 3l-3-3"
+                />
+              </svg>
+            </div>
+            <!-- Title -->
+            <h3 class="text-xl font-semibold text-gray-800 text-center mb-2">
+              Financial Oversight
+            </h3>
+            <!-- Text -->
+            <p class="text-gray-600 text-center mb-6">
+              Involves managing financial resources, ensuring compliance, and
+              making strategic decisions to maintain fiscal health.
+            </p>
+            <!-- Button -->
+            <div
+              class="text-center absolute -bottom-5 left-1/2 transform -translate-x-1/2"
+            >
+              <a
+                href="/Governance.html"
+                class="inline-block px-3 py-2 text-white bg-primary10 rounded-md hover:bg-pink"
+              >
+                Learn More
+              </a>
+            </div>
+          </div>
+          <!-- 3
+          -->
+          <div
+            class="bg-white rounded-lg shadow-lg border-2 border-primary10 p-6 relative"
+          >
+            <!-- Icon -->
+            <div class="flex justify-center mb-4 text-blue-500">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-10 w-10 stroke-primary10"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 1v4m0 4v4m-4 2h8M12 15v4"
+                />
+              </svg>
+            </div>
+            <!-- Title -->
+            <h3 class="text-xl font-semibold text-gray-800 text-center mb-2">
+              Board Members
+            </h3>
+            <!-- Text -->
+            <p class="text-gray-600 text-center mb-6">
+              Ensures the interests and concerns of key stakeholders are
+              considered and advocated for in organizational decisions.
+            </p>
+            <!-- Button -->
+            <div
+              class="text-center absolute -bottom-5 left-1/2 transform -translate-x-1/2"
+            >
+              <a
+                href="/Governance.html"
+                class="inline-block px-3 py-2 text-white bg-primary10 rounded-md hover:bg-pink"
+              >
+                Learn More
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- footer -->
     <!-- footer -->
