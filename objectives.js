@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
     goalElement.classList.add("py-2", "pl-[50px]", "bg-primary10", "relative");
 
     goalElement.innerHTML = `
-    <div class="h-full w-[70px] border-4 border-red-200 bg-primary10 text-white rounded-[50%] absolute top-0 -left-[40px] flex items-center justify-center text-bold text-2xl">
+    <div class="h-full w-[50px] lg:w-[70px] lg:border-4 border-red-200 bg-primary10 text-pink lg:text-wht rounded-[50%] absolute top-0 left-[0px] lg:-left-[40px] flex items-center justify-center text-bold text-2xl">
       ${String(index + 1).padStart(2, "0")}
     </div>
     <p class='text-wht'>${item.goal}</p>
