@@ -139,12 +139,34 @@
           </div>
         </div>
       </section>
+      <!-- team -->
+      <section>
+        <div class="flex items-center my-10">
+          <div class="flex-grow border-t border-gray-300"></div>
+          <span
+            class="px-4 uppercase bg-darkpurple rounded-xl text-wht text-2xl font-extrabold"
+          >
+            our team</span
+          >
+          <div class="flex-grow border-t border-gray-300"></div>
+        </div>
+        <div class="relative bg-gray-300 overflow-hidden">
+          <div
+            class="absolute bg-blue-900 w-10 h-10 left-1/2 lg:top-1/2 lg:left-0 transform lg:-translate-x-1/2 -translate-y-1/2 border-b-4 border-blue-800 border-r-4 border-blue-800 rotate-45 lg:-rotate-45"
+          ></div>
+          <div
+            id="team-container"
+            class="grid grid-cols-1 md:grid-cols-2 gap-3 lg:w-[70%] mx-auto py-10"
+          ></div>
+          <div
+            class="absolute bg-blue-900 w-10 h-10 right-1/2 lg:top-1/2 lg:right-0 transform lg:translate-x-1/2 -translate-y-1/2 border-t-4 border-blue-800 border-l-4 border-blue-800 rotate-45 lg:-rotate-45"
+          ></div>
+        </div>
+      </section>
     </main>
-    <script src="values.js"></script>
-    <script src="main.js"></script>
-    <script src="objectives.js"></script>
+
     <!-- footer -->
-    <footer class="footer footer-center text-wht bg-primary20 p-4">
+    <footer class="footer footer-center text-wht bg-primary20 p-4 mt-10">
       <aside>
         <p id="copyright">
           Copyright © <span id="year"></span> - All rights reserved | Eternal
@@ -152,5 +174,9 @@
         </p>
       </aside>
     </footer>
+    <script src="./scriptFiles/values.js"></script>
+    <script src="./scriptFiles/main.js"></script>
+    <script src="./scriptFiles/objectives.js"></script>
+    <script src="./scriptFiles/team.js"></script>
   </body>
 </html>

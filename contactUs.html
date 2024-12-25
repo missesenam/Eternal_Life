@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary10: "#33569d",
+              primary20: "#072152",
+              blk: "#000000",
+              wht: "#ffffff",
+              darkpurple: "#5c5caa",
+              pink: "#d887cb",
+            },
+            fontFamily: {
+              sans: ['"Your Custom Font"', "system-ui", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <!-- animation -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+    />
+  </head>
+  <body>
+    <div class="z-[1000] fixed w-screen bg-white" id="navbar"></div>
+    <!-- hero section -->
+    <!-- <div class="bg-[#cddcf7] h-screen">
+      <div
+        class="ani-boxes flex flex-col h-full justify-center items-center gap-5"
+      >
+        <div
+          data-ani="fadeInLeft"
+          class="text-6xl pl-4 lg:text-8xl text-primary20"
+        >
+          "Empower, Inspire, Innovate"
+        </div>
+        <div
+          data-ani="fadeInRight"
+          class="text-pink text-3xl lg:w-[40%] text-center"
+        >
+          World-class authority in nurturing outstanding leadership
+          capabilities.
+        </div>
+      </div>
+    </div> -->
+
+    <!-- main -->
+    <main class="pt-8">
+      <section class="pt-9">
+        <div
+          class="relative w-full bg-cover bg-center"
+          style="background-image: url('./img/leadership.webp')"
+        >
+          <div
+            class="absolute top-0 left-0 w-full h-full bg-primary20 opacity-90"
+          ></div>
+
+          <div class="relative z-10">
+            <div class="pt-5">
+              <div
+                class="flex flex-col h-full justify-center items-center gap-5"
+              >
+                <div class="text-6xl lg:text-8xl pl-4 text-white uppercase">
+                  Get in touch
+                </div>
+                <div class="text-2xl text-center text-gray-300">
+                  For inquiries related to Christian Leaders and how to begin
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center py-10"
+            >
+              <!-- Left Section -->
+              <div class="space-y-6 text-wht">
+                <h2 class="text-4xl font-bold text-center md:text-left">
+                  Contact Us
+                </h2>
+                <p class="text-center md:text-left">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam.
+                </p>
+                <div class="space-y-6">
+                  <div class="flex items-center space-x-4">
+                    <div
+                      class="w-12 h-12 bg-primary30 text-white flex justify-center items-center rounded-full"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-6 w-6"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M3 10l4-4m0 0l4 4m-4-4v12"
+                        />
+                      </svg>
+                    </div>
+                    <div>
+                      <h4 class="font-semibold text-pink">Address</h4>
+                      <p>4671 Sugar Camp Road, Owatonna, Minnesota, 55060</p>
+                    </div>
+                  </div>
+                  <div class="flex items-center space-x-4">
+                    <div
+                      class="w-12 h-12 bg-primary30 text-white flex justify-center items-center rounded-full"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-6 w-6"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2m-4 0H7a2 2 0 01-2-2V10a2 2 0 012-2h6m8-4H7v4h14M9 12h6"
+                        />
+                      </svg>
+                    </div>
+                    <div>
+                      <h4 class="font-semibold text-pink">Phone</h4>
+                      <p>507-475-60945-6094</p>
+                    </div>
+                  </div>
+                  <div class="flex items-center space-x-4">
+                    <div
+                      class="w-12 h-12 bg-primary30 text-white flex justify-center items-center rounded-full"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-6 w-6"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M16 3H8a2 2 0 00-2 2v14l6-3.5L16 19V5a2 2 0 00-2-2z"
+                        />
+                      </svg>
+                    </div>
+                    <div>
+                      <h4 class="font-semibold text-pink">Email</h4>
+                      <p>wrub7d781@temporary-mail.net</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Right Section -->
+              <div class="bg-white p-8 rounded-lg shadow-lg">
+                <form class="space-y-4">
+                  <div>
+                    <label for="name" class="block text-gray-700 font-semibold"
+                      >Full Name</label
+                    >
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      class="w-full mt-1 p-3 border-b-2 border-primary20 focus:outline-none focus:ring-primary30 focus:border-primary30"
+                      placeholder="Enter your full name"
+                    />
+                  </div>
+                  <div>
+                    <label for="email" class="block text-gray-700 font-semibold"
+                      >Email</label
+                    >
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      class="w-full mt-1 p-3 border-b-2 border-primary20 focus:outline-none focus:ring-primary30 focus:border-primary30"
+                      placeholder="Enter your email"
+                    />
+                  </div>
+                  <div>
+                    <label
+                      for="message"
+                      class="block text-gray-700 font-semibold"
+                      >Message</label
+                    >
+                    <textarea
+                      id="message"
+                      name="message"
+                      rows="4"
+                      class="w-full mt-1 p-3 border-b-2 border-primary20 focus:outline-none focus:ring-primary30 focus:border-primary30"
+                      placeholder="Type your message..."
+                    ></textarea>
+                  </div>
+                  <button
+                    type="submit"
+                    class="w-full bg-primary20 text-white py-3 px-6 rounded-md hover:bg-primary10 focus:outline-none"
+                  >
+                    Send
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <!-- footer -->
+    <footer class="footer footer-center text-wht bg-primary20 p-4 mt-10">
+      <aside>
+        <p id="copyright">
+          Copyright © <span id="year"></span> - All rights reserved | Eternal
+          Life Leadership Training Institute
+        </p>
+      </aside>
+    </footer>
+    <script src="./scriptFiles/main.js"></script>
+  </body>
+</html>
