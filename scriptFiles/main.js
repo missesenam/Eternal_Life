@@ -33,11 +33,11 @@ let navigation = `    <nav class="w-[80%] mx-auto border-b">
                   <li><a href="Governance.html">Governance</a></li>
                 </ul>
               </li>
-              <li><a>Admissions</a></li>
-            <li><a>Blog</a></li>
-            <li><a>FAQs</a></li>
-            <li><a>Contact Us</a></li>
-            <li><a>Donation</a></li>
+              <li><a href="admission.html">Admissions</a></li>
+            <li><a  href="blog.html">Blog</a></li>
+            <li><a  href="FAQs.html">FAQs</a></li>
+            <li><a href="contactUs.html">Contact Us</a></li>
+            <li><a  href="donation.html">Donation</a></li>
             </ul>
           </div>
           <a class="sm:ml-auto mr-auto" href="index.html"
