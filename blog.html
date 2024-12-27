@@ -47,44 +47,39 @@
   <body>
     <div class="z-[1000] fixed w-screen bg-white" id="navbar"></div>
     <!-- hero section -->
-    <!-- <div class="bg-[#cddcf7] h-screen">
+    <div
+      class="relative bg-[url('../img/blog.jpg')] h-[70vh] bg-no-repeat bg-cover bg-center"
+    >
+      <div class="absolute top-0 left-0 w-full h-full bg-wht opacity-50"></div>
       <div
-        class="ani-boxes flex flex-col h-full justify-center items-center gap-5"
+        class="ani-boxes flex flex-col h-full justify-center items-center gap-5 relative z-10"
       >
-        <div
-          data-ani="fadeInLeft"
-          class="text-6xl pl-4 lg:text-8xl text-primary20"
-        >
-          "Empower, Inspire, Innovate"
-        </div>
-        <div
-          data-ani="fadeInRight"
-          class="text-pink text-3xl lg:w-[40%] text-center"
-        >
-          World-class authority in nurturing outstanding leadership
-          capabilities.
+        <div data-ani="fadeInLeft" class="text-6xl pl-4 lg:text-8xl capitalize">
+          our <span class="text-primary20 uppercase">blog</span>
+          <div class="flex items-center my-2 w-[30%] mx-auto">
+            <span class="flex-grow border-t-2 border-primary20"></span>
+          </div>
         </div>
       </div>
-    </div> -->
-
+    </div>
     <!-- main -->
     <main class="py-10">
-      <section class="py-10">
-        <h1
+      <section>
+        <!-- <h1
           class="text-3xl font-extrabold mb-3 uppercase tracking-wide text-center"
         >
           our <span class="text-primary20">blog</span>
         </h1>
         <div class="flex items-center my-2 w-[8%] mx-auto">
           <span class="flex-grow border-t-2 border-primary20"></span>
-        </div>
+        </div> -->
 
         <div class="mt-10">
           <div
             class="p-5 flex flex-col lg:flex-row justify-between items-center lg:w-[80%] mx-auto"
           >
             <h1
-              class="text-3xl font-bold text-gray-800 mb-6 text-pink uppercase"
+              class="text-3xl font-bold text-gray-800 mb-6 text-darkpurple uppercase"
             >
               Search for a Blog
             </h1>
@@ -95,28 +90,28 @@
                 <div>
                   <label
                     for="from-date"
-                    class="block text-sm font-medium text-gray-700 text-center"
+                    class="block text-sm font-bold text-gray-700 text-center"
                   >
                     From (mm/dd/yyyy)
                   </label>
                   <input
                     type="date"
                     id="from-date"
-                    class="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm sm:text-sm text-gray-700"
+                    class="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm sm:text-sm text-gray-700 outline-none"
                   />
                 </div>
                 <!-- To Date -->
                 <div>
                   <label
                     for="to-date"
-                    class="block text-sm font-medium text-gray-700 text-center"
+                    class="block text-sm font-bold text-gray-700 text-center"
                   >
                     To (mm/dd/yyyy)
                   </label>
                   <input
                     type="date"
                     id="to-date"
-                    class="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm sm:text-sm text-gray-700"
+                    class="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm sm:text-sm text-gray-700 outline-none"
                   />
                 </div>
               </div>
@@ -125,22 +120,22 @@
               <div class="flex items-end space-x-2">
                 <button
                   type="submit"
-                  class="bg-blue-600 text-white px-4 py-2 rounded-md shadow hover:bg-blue-700 focus:ring-2 focus:ring-blue-500"
+                  class="bg-pink text-white px-4 py-2 rounded-md shadow hover:bg-darkpurple focus:ring-2 focus:ring-blue-500"
                 >
                   Search
                 </button>
                 <button
                   type="reset"
-                  class="px-4 py-2 rounded-md shadow border border-blue-600 focus:ring-2 focus:ring-blue-500"
+                  class="px-4 py-2 rounded-md shadow border border-pink focus:ring-2 focus:ring-blue-500"
                 >
                   Clear
                 </button>
               </div>
             </form>
           </div>
-          <hr class="h-1 w-full bg-blue-700" />
+          <hr class="h-1 bg-darkpurple w-[80%] mx-auto rounded-md" />
           <div
-            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 w-[80%] sm:w-[95%] lg:w-[80%] mx-auto"
+            class="ani-boxes grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 w-[80%] sm:w-[95%] lg:w-[80%] mx-auto overflow-hidden"
             id="blog-container"
           ></div>
         </div>
@@ -156,7 +151,7 @@
         </p>
       </aside>
     </footer>
-    <script src="./scriptFiles/main.js"></script>
     <script src="./scriptFiles/blog.js"></script>
+    <script src="./scriptFiles/main.js"></script>
   </body>
 </html>
