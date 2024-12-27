@@ -30,7 +30,7 @@ const blogContainer = document.getElementById("blog-container");
 blogContainer.innerHTML = blogs
   .map(
     (blog) => `
-      <div class="max-w-sm bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+      <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
         <img class="w-full h-48 object-cover rounded-t-lg" src="${blog.image}" alt="${blog.title}" />
         <div class="p-5">
           <p class="text-sm text-red-500 mb-2">${blog.date} | ${blog.category}</p>
