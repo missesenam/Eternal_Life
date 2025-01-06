@@ -25,7 +25,8 @@ let navigation = `    <nav class="w-[80%] mx-auto border-b">
               tabindex="0"
               class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
-              // homehere
+              <li><a href="index.html">Home</a></li>
+              <li>
                 <a>About</a>
                 <ul class="p-2">
                   <li><a href="aboutUs.html">About us</a></li>
