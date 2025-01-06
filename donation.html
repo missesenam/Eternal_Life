@@ -48,7 +48,7 @@
     <div class="z-[1000] fixed w-screen bg-white" id="navbar"></div>
     <!-- hero section -->
     <div
-      class="relative bg-[url('../img/donation.jpg')] h-[70vh] bg-no-repeat bg-cover"
+      class="relative bg-[url('../img/donation.jpg')] h-[70vh] bg-no-repeat bg-center lg:bg-cover"
     >
       <div
         class="absolute top-0 left-0 w-full h-full bg-black opacity-50"
@@ -56,7 +56,10 @@
       <div
         class="ani-boxes flex flex-col h-full justify-center items-center gap-5 relative z-10"
       >
-        <div data-ani="bounceInDown" class="text-6xl pl-4 lg:text-8xl text-wht">
+        <div
+          data-ani="bounceInDown"
+          class="text-5xl lg:text-6xl pl-4 lg:text-8xl text-wht"
+        >
           Support Our Cause
         </div>
         <div
@@ -73,7 +76,9 @@
       <section class="lg:w-[60%] mx-auto mb-10">
         <div class="flex items-center gap-2 pt-10 pl-4">
           <span class="w-4 h-24 bg-pink"></span>
-          <h2 class="text-6xl font-bold text-black m-0 uppercase">donation</h2>
+          <h2 class="text-5xl lg:text-6xl font-bold text-black m-0 uppercase">
+            donation
+          </h2>
         </div>
       </section>
       <section class="p-6 my-10">
@@ -111,23 +116,25 @@
         </div>
       </section>
 
-      <section class="bg-white shadow-lg rounded-lg p-6 max-w-xl mx-auto">
+      <section
+        class="w-full bg-white shadow-lg rounded-lg p-6 max-w-xl mx-auto"
+      >
         <h2 class="text-2xl font-semibold text-gray-800 text-center mb-4">
           Choose Your Donation Amount
         </h2>
-        <div class="flex space-x-2 justify-between mb-6">
+        <div class="flex space-x-3 justify-between mb-6">
           <button
-            class="bg-darkpurple text-white px-6 py-3 rounded-lg text-xl w-full hover:text-black hover:bg-white hover:border hover:border-darkpurple"
+            class="bg-darkpurple text-white py-2 sm:px-6 sm:py-3 rounded-lg text-xl w-full hover:text-black hover:bg-white hover:border hover:border-darkpurple"
           >
             Donate $10
           </button>
           <button
-            class="bg-darkpurple text-white px-6 py-3 rounded-lg text-xl w-full hover:text-black hover:bg-white hover:border hover:border-darkpurple"
+            class="bg-darkpurple text-white py-2 sm:px-6 sm:py-3 rounded-lg text-xl w-full hover:text-black hover:bg-white hover:border hover:border-darkpurple"
           >
             Donate $25
           </button>
           <button
-            class="bg-darkpurple text-white px-6 py-3 rounded-lg text-xl w-full hover:text-black hover:bg-white hover:border hover:border-darkpurple"
+            class="bg-darkpurple text-white py-2 sm:px-6 sm:py-3 rounded-lg text-xl w-full hover:text-black hover:bg-white hover:border hover:border-darkpurple"
           >
             Donate $50
           </button>
