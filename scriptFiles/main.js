@@ -1,6 +1,8 @@
 // menu
 const navBar = document.getElementById("navbar");
-
+{
+  /* <li><a href="index.html">Home</a></li> */
+}
 let navigation = `    <nav class="w-[80%] mx-auto border-b">
       <div class="navbar bg-base-100">
         <div class="navbar-start">
@@ -25,7 +27,7 @@ let navigation = `    <nav class="w-[80%] mx-auto border-b">
               tabindex="0"
               class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
-              <li><a href="index.html">Home</a></li>
+              
               <li>
                 <a>About</a>
                 <ul class="p-2">
@@ -46,7 +48,6 @@ let navigation = `    <nav class="w-[80%] mx-auto border-b">
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1 text-sm">
-            <li><a href="index.html">Home</a></li>
             <li>
               <details>
                 <summary>About</summary>

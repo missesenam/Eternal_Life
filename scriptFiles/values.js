@@ -30,6 +30,12 @@ document.addEventListener("DOMContentLoaded", () => {
         "Nurturing the potential and self-belief of individuals, enabling them to lead with confidence and authenticity.",
       icon: "⚔️",
     },
+    {
+      title: "Service",
+      description:
+        "Committed to making a positive difference by serving communities with compassion, dedication, and a focus on uplifting others.",
+      icon: "🤝",
+    },
   ];
 
   const valuesContainer = document.getElementById("values");

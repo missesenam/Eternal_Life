@@ -1,6 +1,6 @@
 const team = [
   {
-    name: "Grace Johnson",
+    name: "Apostle Thomas Appiah kubi",
     title: "Software Engineer",
     description:
       "Grace is a full-stack developer with a passion for building scalable web applications. She enjoys working on innovative projects that solve real-world problems.",
