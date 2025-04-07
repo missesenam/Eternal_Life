@@ -1,7 +1,7 @@
 const team = [
   {
-    name: "Apostle Thomas Appiah kubi",
-    title: "Software Engineer",
+    name: "Apostle Thomas KUSI-APPIAH",
+    title: "",
     description:
       "Grace is a full-stack developer with a passion for building scalable web applications. She enjoys working on innovative projects that solve real-world problems.",
     image: "./img/businessman.webp",
@@ -12,8 +12,8 @@ const team = [
     },
   },
   {
-    name: "Amadou Diallo",
-    title: "UI/UX Designer",
+    name: "MR KWABENA NKANSAH SIMPEH",
+    title: "DIRECTOR - RESEARCH AND TRAINING/REGISTRAR",
     description:
       "Amadou specializes in creating intuitive and visually appealing designs. He is an expert in user-centered design principles and loves collaborating with developers.",
     image: "./img/businessman.webp",
@@ -24,8 +24,8 @@ const team = [
     },
   },
   {
-    name: "Francis Osei",
-    title: "Project Manager",
+    name: "APOSTLE B. M GIBSON",
+    title: "DIRECTOR - MEDIA &COMMUNICATION",
     description:
       "Francis has over a decade of experience in managing large-scale projects. He ensures seamless coordination and timely delivery of projects.",
     image: "./img/businessman.webp",
@@ -36,8 +36,8 @@ const team = [
     },
   },
   {
-    name: "Anita Mensah",
-    title: "Marketing Specialist",
+    name: "EMELIA NAA HAMMOND",
+    title: "DIRECTOR - INTERNATIONAL RELATIONS",
     description:
       "Anita is a data-driven marketer who creates impactful campaigns to drive business growth. She is skilled in digital marketing and social media strategy.",
     image: "./img/businessman.webp",
