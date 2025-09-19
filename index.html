@@ -47,25 +47,31 @@
   <body>
     <div class="z-[1000] fixed w-screen bg-white" id="navbar"></div>
     <!-- hero section -->
-    <div class="bg-[#cddcf7] h-screen">
-      <div
-        class="ani-boxes flex flex-col h-full justify-center items-center gap-5"
-      >
-        <div
-          data-ani="fadeInLeft"
-          class="text-6xl pl-4 lg:text-8xl text-primary20"
+    <!-- Hero Section -->
+    <section
+      class="relative h-[90vh] bg-cover bg-center flex items-center justify-center"
+      style="
+        background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c');
+      "
+    >
+      <!-- Overlay -->
+      <div class="absolute inset-0 bg-primary20 bg-opacity-70"></div>
+
+      <!-- Content -->
+      <div class="relative z-10 text-center px-6 max-w-4xl">
+        <h1
+          class="text-4xl md:text-6xl font-bold text-white mb-6 animate__animated animate__fadeInDown"
         >
           "Empower, Inspire, Innovate"
-        </div>
-        <div
-          data-ani="fadeInRight"
-          class="text-pink text-3xl lg:w-[40%] text-center"
+        </h1>
+        <p
+          class="text-lg md:text-xl text-gray-200 leading-relaxed animate__animated animate__fadeInUp"
         >
           World-class authority in nurturing outstanding leadership
           capabilities.
-        </div>
+        </p>
       </div>
-    </div>
+    </section>
 
     <!-- main -->
     <main class="my-7">

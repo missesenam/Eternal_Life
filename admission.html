@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Navbar</title>
+    <title>Admissions | Eternal Life Leadership Training Institute</title>
     <link rel="stylesheet" href="./styles.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link
@@ -24,7 +24,7 @@
               pink: "#d887cb",
             },
             fontFamily: {
-              sans: ['"Your Custom Font"', "system-ui", "sans-serif"],
+              sans: ["Inter", "system-ui", "sans-serif"],
             },
           },
         },
@@ -33,19 +33,14 @@
     <!-- animation -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css"
-    />
-    <link
-      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
     />
   </head>
-  <body>
-    <div class="z-[1000] fixed w-screen bg-white" id="navbar"></div>
+  <body class="font-sans">
+    <!-- Navbar -->
+    <div class="z-[1000] fixed w-screen bg-white shadow" id="navbar"></div>
+
+    <!-- Hero -->
     <!-- hero section -->
     <div
       class="relative bg-[url('../img/admission.jpg')] h-[70vh] bg-no-repeat bg-cover"
@@ -58,53 +53,75 @@
       >
         <div
           data-ani="fadeInLeft"
-          class="text-6xl pl-4 lg:text-8xl text-wht capitalize"
+          class="text-5xl md:text-7xl text-wht capitalize font-bold text-white capitalize"
         >
           admission
         </div>
       </div>
     </div>
 
-    <!-- main -->
-    <main class="my-7">
-<section class="mb-10">
-  <h2 class="text-2xl font-semibold text-gray-700 mb-4">
-    Welcome to Eternal Life Leadership Training Institute
-  </h2>
-  <p class="text-gray-600 leading-relaxed">
-    We are excited that you are considering joining our community. At Eternal Life Leadership Training Institute, we offer a range of courses and programs designed to equip you for ministry and leadership. Our admissions process is straightforward, and we are here to guide you every step of the way.
-  </p>
-</section>
+    <!-- Main Content -->
+    <main class="max-w-5xl mx-auto px-6 py-12">
+      <!-- Welcome Section -->
+      <section class="mb-12">
+        <h2 class="text-3xl font-semibold text-primary20 mb-4">
+          Welcome to Eternal Life Leadership Training Institute
+        </h2>
+        <p class="text-gray-600 leading-relaxed">
+          We are excited that you are considering joining our community. At
+          Eternal Life Leadership Training Institute, we offer a range of
+          courses and programs designed to equip you for ministry and
+          leadership. Our admissions process is straightforward, and we are here
+          to guide you every step of the way.
+        </p>
+      </section>
 
-<section class="mb-10">
-  <h2 class="text-2xl font-semibold text-gray-700 mb-4">How to Apply</h2>
-  <p class="text-gray-600 leading-relaxed mb-4">
-    To begin your journey with us, follow these simple steps:
-  </p>
-  <ol class="list-decimal list-inside text-gray-600">
-    <li>Complete the online application form.</li>
-    <li>Submit the required documents.</li>
-    <li>Await confirmation from our admissions team.</li>
-  </ol>
-</section>
+      <!-- How to Apply -->
+      <section class="mb-12">
+        <h2 class="text-3xl font-semibold text-primary20 mb-4">How to Apply</h2>
+        <p class="text-gray-600 leading-relaxed mb-4">
+          To begin your journey with us, follow these simple steps:
+        </p>
+        <ol class="list-decimal list-inside space-y-2 text-gray-700">
+          <li>Complete the online application form.</li>
+          <li>Submit the required documents.</li>
+          <li>Await confirmation from our admissions team.</li>
+        </ol>
+      </section>
 
-<section class="mb-10">
-  <h2 class="text-2xl font-semibold text-gray-700 mb-4">Contact Us</h2>
-  <p class="text-gray-600 leading-relaxed mb-4">
-    If you have any questions or need assistance, please feel free to reach out to our admissions team. We are here to help you every step of the way.
-  </p>
-  <p class="text-gray-600">Email: <a href="mailto:admissions@eternallifeleadership.org" class="text-blue-600">admissions@eternallifeleadership.org</a></p>
-  <p class="text-gray-600">Phone: (123) 456-7890</p>
-</section>
+      <!-- Contact Section -->
+      <section class="mb-12">
+        <h2 class="text-3xl font-semibold text-primary20 mb-4">Contact Us</h2>
+        <p class="text-gray-600 leading-relaxed mb-4">
+          If you have any questions or need assistance, please feel free to
+          reach out to our admissions team. We are here to help you every step
+          of the way.
+        </p>
+        <p class="text-gray-700">
+          <span class="font-medium">Email:</span>
+          <a
+            href="mailto:admissions@eternallifeleadership.org"
+            class="text-primary10 hover:underline"
+            >admissions@eternallifeleadership.org</a
+          >
+        </p>
+        <p class="text-gray-700">
+          <span class="font-medium">Phone:</span> (123) 456-7890
+        </p>
+      </section>
 
-<div class="text-center mt-8">
-  <a href="#" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">Apply Now</a>
-</div>
-
-  </div>
+      <!-- CTA -->
+      <div class="text-center mt-12">
+        <a
+          href="#"
+          class="px-8 py-3 bg-primary10 text-white font-semibold rounded-lg shadow-md hover:bg-primary20 transition"
+        >
+          Apply Now
+        </a>
+      </div>
     </main>
-    <!-- footer -->
-    <!-- footer -->
+
+    <!-- Footer -->
     <footer class="footer footer-center text-wht bg-primary20 p-4">
       <aside>
         <p id="copyright">
@@ -113,6 +130,7 @@
         </p>
       </aside>
     </footer>
+
     <script src="./scriptFiles/main.js"></script>
   </body>
 </html>
