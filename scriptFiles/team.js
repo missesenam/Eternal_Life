@@ -12,7 +12,7 @@ const team = [
   {
     name: "DEACONESS VICTORIA TETTEH AYITEY",
     title: "DIRECTOR - FINANCE AND ADMINISTRATION",
-    image: "./img/vic.jpg",
+    image: "./img/vic.png",
     socialLinks: {
       facebook: "https://facebook.com/grace.johnson",
       twitter: "https://twitter.com/grace_johnson",
@@ -22,7 +22,7 @@ const team = [
   {
     name: "MR KWABENA NKANSAH SIMPEH",
     title: "DIRECTOR - RESEARCH AND TRAINING/REGISTRAR",
-    image: "./img/kwabena.jpg",
+    image: "./img/kwabena.png",
     socialLinks: {
       facebook: "https://facebook.com/amadou.diallo",
       twitter: "https://twitter.com/amadou_diallo",
@@ -32,7 +32,7 @@ const team = [
   {
     name: "APOSTLE B. M GIBSON",
     title: "DIRECTOR - MEDIA &COMMUNICATION",
-    image: "./img/gibson.jpg",
+    image: "./img/gibson.png",
     socialLinks: {
       facebook: "https://facebook.com/francis.osei",
       twitter: "https://twitter.com/francis_osei",
@@ -42,7 +42,7 @@ const team = [
   {
     name: "EMELIA NAA HAMMOND",
     title: "DIRECTOR - INTERNATIONAL RELATIONS",
-    image: "./img/emilia.jpg",
+    image: "./img/emilia.png",
     socialLinks: {
       facebook: "https://facebook.com/anita.mensah",
       twitter: "https://twitter.com/anita_mensah",
@@ -57,7 +57,7 @@ team.forEach((member) => {
   const memberCard = `
   
 
-     <div class="bg-white p-6 rounded-lg shadow-md text-center">
+     <div class="bg-white p-2  shadow-md text-center">
         <img src=${member.image} alt=${member.name} class="mx-auto mb-4 w-64 h-64 object-cover object-top" />
         <h3 class="text-blue-700 font-semibold text-lg">${member.name}</h3>
         <p class="text-sm text-gray-500">${member.title}</p>

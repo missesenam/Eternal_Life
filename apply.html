@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admissions | Eternal Life Leadership Training Institute</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary10: "#33569d",
+              primary20: "#072152",
+              blk: "#000000",
+              wht: "#ffffff",
+              darkpurple: "#5c5caa",
+              pink: "#d887cb",
+            },
+            fontFamily: {
+              sans: ["Inter", "system-ui", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <!-- animation -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+    />
+  </head>
+  <body>
+    <!-- Apply Section -->
+    <section class="py-12 bg-gray-100">
+      <div class="container mx-auto px-6">
+        <div class="bg-white p-8 rounded-2xl shadow-lg max-w-2xl mx-auto">
+          <h2 class="text-3xl font-bold text-indigo-600 mb-6 text-center">
+            Apply Now
+          </h2>
+          <form action="#" method="POST" class="space-y-5">
+            <!-- Full Name -->
+            <div>
+              <label class="block text-gray-700 font-medium mb-2"
+                >Full Name</label
+              >
+              <input
+                type="text"
+                name="fullname"
+                class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-indigo-400 focus:outline-none"
+                placeholder="Enter your full name"
+                required
+              />
+            </div>
+
+            <!-- Title -->
+            <div>
+              <label class="block text-gray-700 font-medium mb-2">Title</label>
+              <input
+                type="text"
+                name="title"
+                class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-indigo-400 focus:outline-none"
+                placeholder="e.g. Mr, Mrs, Dr"
+                required
+              />
+            </div>
+
+            <!-- Email -->
+            <div>
+              <label class="block text-gray-700 font-medium mb-2">Email</label>
+              <input
+                type="email"
+                name="email"
+                class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-indigo-400 focus:outline-none"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+
+            <!-- Phone Number -->
+            <div>
+              <label class="block text-gray-700 font-medium mb-2"
+                >Phone Number</label
+              >
+              <input
+                type="tel"
+                name="number"
+                class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-indigo-400 focus:outline-none"
+                placeholder="Enter your phone number"
+                required
+              />
+            </div>
+
+            <!-- WhatsApp Number -->
+            <div>
+              <label class="block text-gray-700 font-medium mb-2"
+                >WhatsApp Number</label
+              >
+              <input
+                type="tel"
+                name="whatsapp"
+                class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-indigo-400 focus:outline-none"
+                placeholder="Enter your WhatsApp number"
+                required
+              />
+            </div>
+
+            <!-- Resident Address -->
+            <div>
+              <label class="block text-gray-700 font-medium mb-2"
+                >Resident Address</label
+              >
+              <textarea
+                name="address"
+                rows="3"
+                class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-indigo-400 focus:outline-none"
+                placeholder="Enter your address"
+                required
+              ></textarea>
+            </div>
+
+            <!-- Select Program -->
+            <div>
+              <label class="block text-gray-700 font-medium mb-2"
+                >Select a Programme</label
+              >
+              <select
+                name="program"
+                class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-indigo-400 focus:outline-none"
+                required
+              >
+                <option value="">-- Choose a Programme --</option>
+                <option>Emotional Intelligence in Marriage Conference</option>
+                <option>Happy Marriage Conference</option>
+                <option>New Generation Conference</option>
+                <option>Parenting and Family Life Conference</option>
+                <option>Couples Dinner Night</option>
+              </select>
+            </div>
+
+            <!-- Choose Day -->
+            <div>
+              <label class="block text-gray-700 font-medium mb-2"
+                >Preferred Day</label
+              >
+              <div class="flex items-center gap-4">
+                <label class="flex items-center gap-2">
+                  <input
+                    type="checkbox"
+                    name="day"
+                    value="Saturday"
+                    class="h-5 w-5 text-indigo-600 rounded"
+                  />
+                  Saturday
+                </label>
+                <label class="flex items-center gap-2">
+                  <input
+                    type="checkbox"
+                    name="day"
+                    value="Sunday"
+                    class="h-5 w-5 text-indigo-600 rounded"
+                  />
+                  Sunday
+                </label>
+                <label class="flex items-center gap-2">
+                  <input
+                    type="checkbox"
+                    name="day"
+                    value="Both"
+                    class="h-5 w-5 text-indigo-600 rounded"
+                  />
+                  Both
+                </label>
+              </div>
+            </div>
+
+            <!-- Submit -->
+            <div class="text-center pt-4">
+              <button
+                type="submit"
+                class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 rounded-lg transition duration-300"
+              >
+                Submit Application
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

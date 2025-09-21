@@ -56,10 +56,14 @@
       >
         <div
           data-ani="fadeInLeft"
-          class="text-6xl pl-4 lg:text-8xl text-wht capitalize"
+          class="text-6xl pl-4 lg:text-8xl text-wht text-center"
         >
-          our <span class="text-pink uppercase">blog</span>
-          <div class="flex items-center my-2 w-[30%] mx-auto">
+          <span class="text-pink uppercase">blogs </span>and<span
+            class="text-pink uppercase"
+          >
+            EVENTS</span
+          >
+          <div class="flex items-center my-2 w-[40%] mx-auto">
             <span class="flex-grow border-t-2 border-wht"></span>
           </div>
         </div>
@@ -137,10 +141,24 @@
             </form>
           </div>
           <hr class="h-1 bg-darkpurple w-[80%] mx-auto rounded-md" />
-          <div
-            class="ani-boxes grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 w-[80%] sm:w-[95%] lg:w-[80%] mx-auto overflow-hidden"
-            id="blog-container"
-          ></div>
+          <div class="w-[80%] sm:w-[95%] lg:w-[80%] mx-auto overflow-hidden">
+            <!-- Blog Container -->
+            <h2 class="text-3xl font-bold text-primary20 mb-6 uppercase">
+              Latest Blogs
+            </h2>
+            <div
+              class="ani-boxes grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 pb-3"
+              id="blog-container"
+            ></div>
+            <!-- Events Container -->
+            <h2 class="text-3xl font-bold text-primary20 mt-12 mb-6 uppercase">
+              Upcoming Events
+            </h2>
+            <div
+              class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+              id="events-container"
+            ></div>
+          </div>
         </div>
       </section>
     </main>
@@ -155,6 +173,7 @@
       </aside>
     </footer>
     <script src="./scriptFiles/blog.js"></script>
+    <script src="./scriptFiles/events.js"></script>
     <script src="./scriptFiles/main.js"></script>
   </body>
 </html>
