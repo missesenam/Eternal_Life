@@ -35,15 +35,15 @@ let navigation = `    <nav class="w-[80%] mx-auto border-b">
                   <li><a href="Governance.html">Governance</a></li>
                 </ul>
               </li>
-              <li><a href="admission.html">Admissions</a></li>
-            <li><a  href="blog.html">Blog</a></li>
+              <li><a href="admission.html">Program & Admissions</a></li>
+            <li><a  href="blog.html">Events & Blog</a></li>
             <li><a  href="FAQs.html">FAQs</a></li>
-            <li><a href="contactUs.html">Contact Us</a></li>
             <li><a  href="donation.html">Donation</a></li>
+            <li><a href="contactUs.html">Contact Us</a></li>
             </ul>
           </div>
           <a class="sm:ml-auto mr-auto" href="index.html"
-            ><img src="./icon/etern.jpg" alt="icon" width="50px"
+            ><img src="./icon/eternicon.jpg" alt="icon" width="60px"
           /></a>
         </div>
         <div class="navbar-center hidden lg:flex">
@@ -57,12 +57,12 @@ let navigation = `    <nav class="w-[80%] mx-auto border-b">
                 </ul>
               </details>
             </li>
-            <li><a href="admission.html">Admissions</a></li>
-            <li><a  href="blog.html">Blog</a></li>
+            <li><a href="admissiProgram&on.html">Program & Admissions</a></li>
+            <li><a  href="blog.html">Events & Blog</a></li>
             <li><a  href="FAQs.html">FAQs</a></li>
-            <li><a href="contactUs.html">Contact Us</a></li>
             <li><a  href="donation.html">Donation</a></li>
-          </ul>
+            <li><a href="contactUs.html">Contact Us</a></li>
+            </ul>
         </div>
         <!-- <div class="navbar-end">
           <a class="btn">Register</a>

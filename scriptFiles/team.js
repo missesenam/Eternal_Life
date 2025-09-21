@@ -1,8 +1,18 @@
+//  {
+//     name: "Apostle Thomas KUSI-APPIAH",
+//     title: "",
+//     image: "./img/woman1.jpg",
+//     socialLinks: {
+//       facebook: "https://facebook.com/grace.johnson",
+//       twitter: "https://twitter.com/grace_johnson",
+//       instagram: "https://instagram.com/grace.johnson",
+//     },
+//   },
 const team = [
   {
-    name: "Apostle Thomas KUSI-APPIAH",
-    title: "",
-    image: "./img/woman1.jpg",
+    name: "DEACONESS VICTORIA TETTEH AYITEY",
+    title: "DIRECTOR - FINANCE AND ADMINISTRATION",
+    image: "./img/vic.jpg",
     socialLinks: {
       facebook: "https://facebook.com/grace.johnson",
       twitter: "https://twitter.com/grace_johnson",
@@ -48,7 +58,7 @@ team.forEach((member) => {
   
 
      <div class="bg-white p-6 rounded-lg shadow-md text-center">
-        <img src=${member.image} alt=${member.name} class="mx-auto mb-4 w-32 h-32 object-contain" />
+        <img src=${member.image} alt=${member.name} class="mx-auto mb-4 w-64 h-64 object-cover object-top" />
         <h3 class="text-blue-700 font-semibold text-lg">${member.name}</h3>
         <p class="text-sm text-gray-500">${member.title}</p>
       </div>
